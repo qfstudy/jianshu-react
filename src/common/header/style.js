@@ -64,6 +64,18 @@ export const NavSearch=styled.input.attrs({
   &.focused{
     width: 240px;
   }
+  &.slide-enter{
+    transitions: all .2s ease-out;
+  }
+  &.slide-enter-active{
+    width: 240px;
+  }
+  &.slide-exit{
+    transitions: all .2s ease-out;
+  }
+  &.slide-exit-active{
+    width: 160px;
+  }
 `
 
 export const SearchWrapper=styled.div`
@@ -81,7 +93,7 @@ export const SearchWrapper=styled.div`
     text-align: center;
     color: #777;
     &.focused{
-      background: #777;
+      background: #888;
       color: #fff;
     }
   }
