@@ -56,7 +56,9 @@ const Header = (props) => {
 
 const mapStateToProps=(state)=>{
   return {
-    focused: state.header.get('focused')
+    // focused: state.get('header').get('focused')
+    //等价于
+    focused: state.getIn(['header','focused'])
   }
 }
 const mapDispathToProps=(dispatch)=>{
