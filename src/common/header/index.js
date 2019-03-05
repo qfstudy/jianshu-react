@@ -52,15 +52,6 @@ const Header = (props) => {
   )
 }
 
-// class Header extends Component{
-
-//   render(){
-//     return(
-      
-//     )
-//   }
-// }
-
 const mapStateToProps=(state)=>{
   return {
     focused:state.header.focused
