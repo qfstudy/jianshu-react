@@ -22,3 +22,9 @@ export const HomeRight=styled.div`
   width: 240px;
   float: right;
 `
+
+// topic style
+export const TopicWrapper=styled.div`
+  padding: 20px 0 10px 0;
+  background: red;
+`
