@@ -27,6 +27,13 @@ const defaultState=fromJS({
     title: '写作，也许是为了对抗孤独（3）',
     desc: '在简书平台上，发现一个有趣的现象，简友们每隔一段时间，都会写文提醒自己，不要在乎赞与钻，那些都是浮云，如果跟风跑，就是浪费时间。 可是每隔一段时.',
     imgUrl: 'https://upload-images.jianshu.io/upload_images/10015224-4f930b6ec4481450.jpeg?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240'
+  }],
+  recommendList:[{
+    id: 1,
+    imgUrl: "https://cdn2.jianshu.io/assets/web/banner-s-club-aa8bdf19f8cf729a759da42e4a96f366.png"
+  },{
+    id: 2,
+    imgUrl: "https://cdn2.jianshu.io/assets/web/banner-s-3-ddcc844ebdd8edca2d93b7ea5a8de79e.png"
   }]
 })
 

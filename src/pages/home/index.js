@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import Topic from './components/Topic'
 import List from './components/List'
 import Writer from './components/Writer'
-import Recomment from './components/Recomment'
+import Recommend from './components/Recommend'
 
 import {
   HomeWrapper,
@@ -20,7 +20,7 @@ class Home extends Component{
           <List></List>
         </HomeLeft>
         <HomeRight>
-          <Recomment></Recomment>
+          <Recommend></Recommend>
           <Writer></Writer>
         </HomeRight>
       </HomeWrapper>
