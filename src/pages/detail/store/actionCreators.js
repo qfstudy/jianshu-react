@@ -13,6 +13,6 @@ export const getDetail=(id)=>{
       const result=res.data.data
       dispatch(changeDetail(result.title,result.content))
       // console.log(res.data.data)
-    })
+    }).catch(()=>{})
   }
 }
